@@ -1,0 +1,777 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+
+    width: 100%;
+    height: 20px;
+    background-color: rgb(21, 43, 43);
+    position: fixed;
+    z-index: 2;
+ 
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+  
+  .popup img{
+
+    width: 40%;
+    height: 100%;
+    margin-left: -55px;
+
+}
+
+.popup h3{
+
+    width: 39%;
+    height: 50px;
+    font-size: 31px;
+    margin-top: -235px;
+    position: absolute;
+    margin-left: 250px;
+}
+
+.popup h1{
+    width: 0%;
+    height: 50px;
+    font-size: 70px;
+    margin-top: -85px;
+    margin-left: 60px;
+
+}
+
+.popup h2{
+
+    font-size: 24px;
+    margin-left: 148px;
+    margin-top: -61px;
+    width: 20%;
+
+}
+
+  .popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #303e55;
+    width: 50%;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 360px;
+    color: white;
+  }
+
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+
+.slider2{
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    padding: 4px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  
+  .slide.active {
+    display: block;
+  }
+
+
+.iconos{
+
+       width: 15%;
+    height: 30px;
+    margin-top: -27px;
+    float: right;
+   
+}
+
+.menu{
+
+    width: 100%;
+    height: 30px;
+ 
+}
+
+.iconos li{
+display: inline;
+/*border-right: solid rgb(233, 217, 217) 3px;*/
+
+
+
+}
+
+.icon{
+
+    width: 11%;
+    margin: 5px;
+
+}
+
+
+.marcas{
+
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    z-index: 1;
+    background-color: white;
+    position: fixed;
+    margin-top: 20px;
+
+}
+
+.lateral{
+
+    float: left;
+    position: absolute;
+    z-index: 1;
+}
+
+button{
+
+    border-style: none;
+    background-color: white;
+    height: 20px;
+}
+
+
+.menuLateral1 {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    background-color: #f1f1f1;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .menuLateral1  a {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+  }
+  
+  .menuLateral1  a:hover {
+    background-color: #ccc;
+  }
+  
+  .iconMenu{
+
+    height: 20px;
+    width: 100%;
+    padding: 4px;
+
+  }
+
+
+
+.icon1{
+
+    width: 3%;
+    margin-left: 35px;
+    vertical-align: -webkit-baseline-middle;
+    margin-top: 2px;
+}
+
+
+
+
+.slider{
+  
+    width: 100%;
+    height: 700px;
+    display: contents; 
+  
+
+}
+
+.slider img{
+
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.menuOpciones{
+
+    width: 100%;
+    height: 800px;
+    position: relative;
+
+}
+
+.coleccion{
+
+    width: 60%;
+    height: 280px;
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 80px;
+    text-align: center;
+
+}
+
+
+ .accesorios{
+
+    width: 60%;
+    height: 280px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 80px;
+    text-align: center;
+
+ }
+
+
+ .eventos{
+
+    width: 30%;
+    height: 730px;
+    position: absolute;
+    float: left;
+    margin-left: 865px;
+    margin-top: 40px;
+ }
+
+
+
+ .slider3{
+    width: 100%;
+    height: 280px;
+
+ }
+
+ .slider4{
+    width: 100%;
+    height: 280px;
+
+ }
+ .slider5{
+
+    width: 100%;
+    height: 730px;
+
+}
+
+.imgLateral{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+ .imgCentro{
+ 
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+ }
+
+
+ .conoceMas{
+
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: 1;
+    margin-top: 130px;
+    transform: translate(-50%, -50%);
+    
+ }
+
+ .conoceMas a{
+
+    font-size: 0;
+
+ }
+
+.coleccion:hover .conoceMas{
+
+    width: 18%;
+    height: 75px;
+ 
+}
+
+
+.coleccion:hover a{
+    
+
+        font-style: italic;
+        text-decoration: none;
+            font-size: large;
+         color: rgb(141, 131, 131);
+     
+}
+
+.coleccion:hover{
+
+    opacity: .8;
+}
+
+.accesorios:hover .conoceMas{
+
+    width: 25%;
+    height: 85px;
+ 
+}
+
+
+.accesorios:hover a{
+    
+
+        font-style: italic;
+        text-decoration: none;
+        font-size: large;
+         color: rgb(141, 131, 131);
+     
+}
+
+.accesorios:hover{
+
+    opacity: .8;
+}
+ 
+.eventos:hover .conoceMas{
+
+    width: 50%;
+    height: 85px;
+    left: 200px;
+    top: 210px;
+ 
+}
+
+
+.eventos:hover a{
+    
+
+        font-style: italic;
+        text-decoration: none;
+            font-size: large;
+         color: rgb(141, 131, 131);
+     
+}
+
+.eventos:hover{
+
+    opacity: .8;
+
+}
+
+ .menuMarcas{
+
+  width: 100%;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.menuMarcas div{
+
+     width: 9%;
+     height: 750px;
+     margin-top: 25px;
+ 
+
+}
+
+.menuMarcas img{
+
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    opacity: .8;
+    transition: 0.5s ease;
+
+}
+
+.menuMarcas img:hover{
+
+    cursor: pointer;
+    width: 150%;
+    filter: contrast(100%);
+    opacity: 1;
+}
+
+@font-face {
+    font-family: 'morganite';
+    src: url("/font/Morganite/Morganite-ExtraLight.ttf") format('truetype');
+
+}
+.palabra{
+
+ 
+    font-family: 'morganite', sans-serif;
+    margin: auto;
+    font-size: 190px;
+    width: 20%;
+    transform: scaleY(2);
+    text-align: center;
+    letter-spacing: 10px;
+    opacity: .3;
+
+
+}
+
+.palabra1{
+    font-family: 'morganite', sans-serif;
+    margin: auto;
+    font-size: 190px;
+    transform: scaleY(2);
+    letter-spacing: 10px;
+    margin-right: 10px;
+    opacity: .3;
+}
+
+.fidelizacion{
+
+     width: 100%;
+     height: 400px;
+     position: relative;
+     justify-content: center;
+     display: flex;
+}
+
+.fidelizacion div{
+
+   width: 80%;
+   height: 360px;
+   margin-top: 20px;
+  
+}
+
+.fidelizacion img{
+
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.menuInformacion{
+
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menuInformacion div{
+
+    width: 18%;
+    height: 100px;
+    margin: 30px;
+    border: 2px solid #12153a;
+    cursor: pointer;
+    font-family: math;
+    color:#12153a;
+}
+
+.menuInformacion img{
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 12px;
+    float:left
+}
+
+.menuInformacion p{
+    margin-top: 35px;
+    float: left;
+    margin-left: 11px;
+    }
+ 
+
+
+.menuInformacion h3{
+    float: left;
+    margin-left: 80px;
+    margin-top: -30px;
+
+}
+
+
+
+
+footer{
+
+width: 100%;
+height: 700px;
+background-color: rgb(10, 11, 26);
+margin-top: 80px;
+display: flex;
+justify-content: center;
+
+}
+
+.fondo{
+
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    opacity: .1;
+    object-position: 0px -160px;
+}
+
+.suscripcion{
+
+    width: 60%;
+    height: 100px;
+    background-color: rgb(5, 9, 27);
+    margin-top: -50px;
+    color:white;
+    font-family: math;
+    position:absolute;
+   
+}
+.suscripcion img{
+
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    opacity: 0.2;
+   
+}
+.suscripcionBtn{
+
+    width: 18%;
+    height: 50px;
+    margin-left: 500px;
+    margin-top: -55px;
+    cursor: pointer;
+    color: #515cff;
+    position: absolute;
+    z-index: 2;
+    opacity: .9;
+  
+}
+
+.suscripcionBtn a{
+    width: 100%;
+    height: 50px;
+    text-decoration: none;
+    
+}
+
+.suscripcion p{
+    margin-top: -75px;
+    margin-left: 315px;
+    
+}
+
+.suscripcion h2{
+
+    margin-left: 230px;
+    font-size: 30px;
+}
+
+
+.marcasF{
+    width: 70%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    position: absolute;
+    border-bottom: 2px solid white;
+
+}
+
+.marcasF div{
+
+    width: 20%;
+    height: 100px;
+    margin: 10px;
+}
+
+.marcasF img{
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    color:white
+
+}
+
+.redes{
+
+        width: 22%;
+        height: 40px;
+        font-size: 13px;
+        position: absolute;
+        color: white;
+        margin-top: 200px;
+        margin-right: 650px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        border-right: 4px solid white;
+
+}
+
+.redes a{
+ 
+    width: 13%;
+    height: 30px;
+     margin-left: 10px;
+}
+.redes img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mediosPagos{
+
+    width: 45%;
+    height: 40px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 310px;
+}
+
+.mediosPagos img{
+     width: 100%;
+     height: 100%;
+    object-fit: fill;
+}
+
+.titulos{
+    width: 90%;
+    height: 30px;
+    position: absolute;
+    margin-top: 280px;
+    border-bottom: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+font-size:15px;
+
+}
+
+.infoMarcas{
+
+    width: 20%;
+    height: 300px;
+    position: absolute;
+    margin-top: 330px;
+    margin-right: 945px;
+    display: grid;
+
+}
+
+.infoMarcas a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.info{
+    width: 20%;
+    height: 300px;
+    position: absolute;
+    margin-top: 330px;
+    margin-right: 255px;
+    display: grid;
+}
+
+.info a{
+    text-decoration: none;
+    color: white;
+}
+
+.info2{
+    width: 20%;
+    height: 215px;
+    position: absolute;
+    margin-top: 330px;
+    display: grid;
+    margin-left: 305px;
+}
+
+.info2 a{
+    text-decoration: none;
+    color: white;
+}
+
+.final{
+
+    width: 80%;
+    height: 20px;
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin-top: 680px;
+    margin-left: 250px;
+}
+
+.servicio{
+    width: 22%;
+    height: 215px;
+    position: absolute;
+    margin-top: 330px;
+    display: grid;
+    margin-left: 934px;
+    align-content: space-around;
+
+}
+
+
+.servicio img{
+    width: 9%;
+    height: 20px;
+    background-color: #12153a;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 9px;
+
+}
+
+.servicio a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    height: 30px;
+}
